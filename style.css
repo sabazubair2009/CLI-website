@@ -1,8 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Mona+Sans:ital,wght@0,200..900;1,200..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
-  font-family: "Google Sans", sans-serif;
+ font-family: "Mona Sans", sans-serif;
   background-color: #0d1117;
-  color: #6e7781;
+  
   margin: 0;
   padding: 0;
 }
@@ -40,3 +44,200 @@
 a:hover {
   text-decoration: underline;
 }
+
+
+    
+    .main {
+    padding: 24px;
+    height: 404px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--theme-color);
+    gap: 16px;
+
+}
+
+.main h1 {
+    width: 650px;
+    font-size: 72px;
+    font-weight: 800px;
+    color: #E6EDF3;
+}
+
+.main p {
+    width: 650px;
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 450;
+    color: #E6EDF3;
+}
+
+.main button {
+    width: 273px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    padding-top: 13px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #F7F9FA;
+    color: var(--theme-color);
+}
+
+.main a {
+    color: #E6EDF3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero-section {
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.hero-section div {
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.download:hover{
+    color: darkblue;
+    text-decoration: underline;
+}
+/* hhhhh */
+.animation {
+    height: 780px;
+    background-color: var(--theme-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url("https://cli.github.com/assets/images/light-glow.svg ");
+    background-position: center;
+
+}
+
+.heading {
+
+    color: #E6EDF3;
+    font-family: "Space Mono", monospace;
+    text-align: center;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+}
+
+.heading h4 {
+    color: #E6EDF3;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 4px;
+}
+
+.screen {
+    font-family: "Space Mono", monospace;
+    border-radius: 5px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    height: 480px;
+    width: 1010px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.gray {
+    color: #8B949E;
+}
+
+.green {
+    color: #2EA043;
+}
+
+.blue {
+    color: blue;
+}
+
+.screen div {
+    display: flex;
+    gap: 8px;
+}
+
+.screen p {
+    padding-left: 32px;
+}
+
+.circle {
+    background-color: rgb(36, 36, 36);
+    height: 12px;
+    width: 12px;
+    border-radius: 999px;
+}
+
+.animation a {
+    color: #E6EDF3;
+    font-size: 24px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.middle {
+    height: 60vh;
+    padding-top: 64px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.middle h1 {
+    font-size: 64px;
+    padding-bottom: 48px;
+    font-weight: 800;
+    color: white;
+}
+
+.inside {
+
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+}
+.inside-it{
+    color: white;
+}
+.inside div {
+    height: 170px;
+    width: 308px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.inside a {
+    text-decoration: none;
+    color: #0969DA;
+    font-size: 12px;
+}
+
+.inside h3 {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.inside p {
+    font-size: 14px;
+    color: var(--text-color);
+}
+
